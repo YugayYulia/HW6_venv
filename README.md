@@ -32,3 +32,24 @@ I also saved the required package versions in environment.yaml.
 
 Finally, I created a new Conda environment called hw6-test and repeated the installation and setup from scratch. The script ran successfully, so I confirmed that the solution was reproducible.
 
+## How to run
+
+Clone my repository and switch to the homework branch:
+git clone https://github.com/YugayYulia/HW6_venv.git
+cd HW6_venv
+git switch hw6-venv
+
+Create and activate the Conda environment:
+conda env create -f environment.yaml
+conda activate hw6-venv
+
+Apply the compatibility fixes:
+python apply_patches.py
+
+Run the script:
+python pain.py
+
+## My rest
+
+After sorting out all the Python dependencies and compatibility issues, I’ve started checking my gear for the upcoming season! Unfortunately, it turns out my boots and bindings need replacing—much like those old software versions. I need to come up with a way to treat myself...
+![My rest](images/Board.jpg)
